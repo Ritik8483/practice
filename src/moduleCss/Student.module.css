@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    min-height: 100vh;
+}
+.card{
+    height: auto;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+}
+.input_box{
+    margin-top: 20px;
+    position: relative;
+}
+input[type='text']{
+    height: 45px;
+    width: 100%;
+    outline:0;
+    border:none;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+    padding: 0 5px;
+    transition: all 0.3s;
+}
+input[type='number']{
+    height: 45px;
+    width: 100%;
+    outline:0;
+    border:none;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+    padding: 0 5px;
+    transition: all 0.3s;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='password']{
+    height: 45px;
+    width: 100%;
+    outline:0;
+    border:none;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+    padding: 0 5px;
+    transition: all 0.3s;
+    position: relative;
+    padding-right: 35px;
+}
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 2px 2px blueviolet;
+}
+.err_msg{
+    font-size: 14px;
+    color: red;
+    margin-top: 3px;
+}
+.btn_sep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eyeslash{
+    position: absolute;
+    top: 35px;
+    right: 9px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: gray;
+}
+.eyeslash:hover{
+    color: green;
+}

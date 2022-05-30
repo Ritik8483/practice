@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: brown;
+}
+.card{
+    height: auto;
+    width: 350px;
+    background-color:aquamarine;
+    padding: 10px;
+}
+.inputText{
+    margin: 20px 0;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 10px;
+}
+.headings{
+    text-align: center !important;
+}

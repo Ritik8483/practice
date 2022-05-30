@@ -1,0 +1,26 @@
+.button{
+    height: 45px;
+    width: 7.5rem;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: 0;
+    border: none;
+}
+.button--primary{
+    background-color: blueviolet;
+    color: #fff;
+}
+.button--primary:hover{
+    background-color: darkblue;
+}
+.button--secondary{
+    background-color:#ccc;
+    color: black;
+}
+.button--secondary:hover{
+    background-color:#c2b5b5;
+}
+
